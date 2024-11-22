@@ -13,7 +13,7 @@ const Hero = (): JSX.Element => {
           IIIT Hyderabad • Undergrad Researcher @ Precog • Research Intern @ Microsoft Research • SWE Intern @ Microsoft
         </h2>
         <p className="text-md will-change-opacity text-lg text-gray-300 will-change-transform">
-        Hello! I'm Ishwar Balappanawar, a final year B.Tech student at the International Institute of Information Technology Hyderabad (IIIT-H), pursuing Computer Science and Engineering.
+        Hello! I am Ishwar Balappanawar, a final year B.Tech student at the International Institute of Information Technology Hyderabad (IIIT-H), pursuing Computer Science and Engineering.
         <br></br><br></br>
 My research interests lie at the intersection of Machine Learning, Computer Vision, and Natural Language Processing, with a particular focus on knowledge-infused learning and model interpretability. Currently, Im working as an Undergraduate Researcher at the Precog Research Lab, CCSS, IIIT Hyderabad, where Im exploring innovative approaches to enhance model understanding and reasoning capabilities.
         </p>

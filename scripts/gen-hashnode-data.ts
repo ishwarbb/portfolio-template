@@ -7,6 +7,7 @@ const HASHNODE_API_URL = "https://api.hashnode.com/";
 const HASHNODE_USERNAME = "AnishDe12020";
 
 const main = async () => {
+  try {
   const query = `
 query($username: String!, $page: Int!) {
 	user(username: $username) {
@@ -75,6 +76,10 @@ query($username: String!, $page: Int!) {
     HASHNODE_DATA_FILE_PATH,
     JSON.stringify({ posts: parsedPosts, domain })
   );
+  }
+  catch (e) {
+    console.error(e);
+  }
 };
 
 main();
